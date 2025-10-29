@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS events (
+  id VARCHAR(64) PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  description TEXT,
+  label VARCHAR(32),
+  day BIGINT NOT NULL
+);
